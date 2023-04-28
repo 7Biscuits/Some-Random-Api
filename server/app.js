@@ -15,8 +15,10 @@ mongoose.connect(mongoConnectionString, {
 
 const userRoutes = require('./routes/userRoutes')
 const postRoutes = require('./routes/postRoutes')
+const followRoutes = require('./routes/followRoutes')
 
 app.use('/users', userRoutes)
+app.use('/user', followRoutes)
 app.use('/posts', postRoutes)
 
 app.use(express.json())

@@ -14,7 +14,7 @@
     "nodemon": "^2.0.22"
   },
   "scripts": {
-    "start": "node ./server/app.js",
-    "dev": "nodemon ./server/app.js"
+    "dev": "nodemon ./server/app.js",
+    "start": "node ./server/app.js"
   }
 }
